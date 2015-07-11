@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jchiu.excitementdocumenter" >
+
+    <service android:name=".MyReceiverService" >
+        <intent-filter>
+            <action android:name="com.google.android.gms.wearable.BIND_LISTENER" />
+        </intent-filter>
+    </service>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivatedActivity"
+            android:label="@string/title_activity_activated" >
+        </activity>
+
+        <service
+            android:name=".MyReceiverService"
+            android:label="@string/title_activity_my_receiver_service" >
+        </service>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="2181747634ef5bb30c7aad7046ec15ccf2174150" />
+
+        <activity
+            android:name=".TwitterActivity"
+            android:label="@string/title_activity_twitter" >
+        </activity>
+    </application>
+
+</manifest>

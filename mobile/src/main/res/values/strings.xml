@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ExcitementDocumenter</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="app_name2">ImprovedNotifications</string>
+    <string name="title_activity_activated">ActivatedActivity</string>
+
+    <string name="message">Hi"!" I"'"m the activated activity</string>
+    <string name="button_text">Compose Tweet</string>
+
+    <string name="notification_text">Do you want to take a photo?</string>
+    <string name="first_action">Let"'"s see the author"'"s twitter profile</string>
+
+    <string name="wearable_action">I only appear here</string>
+    <string name="title_activity_my_receiver_service">MyReceiverService</string>
+    <string name="title_activity_waiting">WaitingActivity</string>
+    <string name="title_activity_twitter">TwitterActivity</string>
+
+</resources>

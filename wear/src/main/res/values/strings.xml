@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExcitementDocumenter</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="home">Are you excited?</string>
+    <string name="excite">Excited!</string>
+    <string name="title_activity_excited">ExcitedActivity</string>
+    <string name="camera">Do you want to take a photo?</string>
+
+</resources>
